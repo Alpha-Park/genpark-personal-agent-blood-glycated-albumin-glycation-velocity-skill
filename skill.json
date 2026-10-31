@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-blood-glycated-albumin-glycation-velocity-skill",
+  "version": "1.0.0",
+  "description": "Glycated Albumin (GA) vs HbA1c discordance index, short-term 2-3 week glycemic excursion monitor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "analyze_glycated_albumin_discordance",
+      "description": "Glycated Albumin (GA) vs HbA1c discordance index, short-term 2-3 week glycemic excursion monitor.",
+      "sample_input": {
+        "ga_percent": 14.8,
+        "hba1c_percent": 5.4,
+        "serum_albumin_g_dl": 4.4
+      }
+    }
+  ]
+}
